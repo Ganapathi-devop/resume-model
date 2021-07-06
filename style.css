@@ -23,14 +23,14 @@ body{
     font-family: inherit;
     padding: 20px;
 }
-.profile{
+.profile-dp{
     width: 100%;
     float: left;
     text-align: center;
     padding-bottom: 2rem;
 }
 #dp-img{
-    width: 12rem;
+    width: 13rem;
     border-radius: 100%;
     align-content: center;
     align-self: center;
@@ -40,6 +40,7 @@ body{
     width: 100%;
     float: left;
     padding-bottom: 20px;
+    color: white;
 }
 #contact-h3{
     font-weight: 600;
@@ -48,6 +49,37 @@ body{
     line-height: 1.6; 
     letter-spacing: 2px;
     margin: 10px;
+    border-bottom: 5px solid lightblue;
+}
+.icon-contacts i{
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+}
+.text-contacts{
+    padding-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-contacts p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+#skill-h3{
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    line-height: 1.6; 
+    letter-spacing: 2px;
+    margin: 10px;
+    border-bottom: 5px solid lightblue;
+
+}
+.skills{
+    
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+    color: white;
 }
 .headline{
     display: inline;
