@@ -90,13 +90,47 @@ body{
 .headline{
     width: fit-content;
     border-bottom: 3px solid lightblue;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .pofile-sec{
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 #profile-h4{
-    
+    width: fit-content;
     border-bottom: 2px solid grey;
+}
+.work-sec{
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+#work-h4{
+    width: fit-content;
+    border-bottom: 3px solid lightblue;
+}
+.date-works{
+    width: 100%;
+    float: left;
+}
+.education-sec{
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+.date-studies{
+    width: 100%;
+    float: left;
+}
+#education-h4{
+    width: fit-content;
+    border-bottom: 3px solid lightblue;
+}
+.certificates-sec{
+    width: 100%;
+    float: left;
+}
+#certificates-h4{
+    width: fit-content;
+    border-bottom: 3px solid lightblue;
 }
