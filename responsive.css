@@ -2,7 +2,7 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #dp-img{width: 1rem;}   
+    #dp-img{width: 85%;}   
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
