@@ -5,6 +5,7 @@ body{
 }
 *{
     box-sizing: border-box;
+    overflow: hidden;
 }
 .tem{
     width: 100%;
@@ -24,6 +25,45 @@ body{
     float: left;
     font-family: inherit;
     padding: 20px;
+}
+.header{
+    display: none;
+    width: 100%;
+    float: left;
+    height: 80px;
+    text-align:center;
+    background-color: rgba(221, 221, 221, 20%);
+    border-radius: 5%;
+    border-bottom: 2px solid cyan;
+}
+.newdiv{
+    display: block;
+    width: 100%;
+    max-height: fit-content;
+    position: fixed;
+    top: 20px;
+    animation: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    border-radius: 4%;
+    font-size: 1rem;
+    background: linear-gradient(to bottom, #595cff, #c6f8ff);
+    color: black;
+}
+.newdiv h4{
+    font-size: 1.5rem;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.newdiv i{
+    font-size: 1.6rem;
+    color: #f72585;
+}
+.newdiv p{
+    font-family: cursive;
+    font-size: 1rem;
+}
+#header-img{
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 100%;
 }
 .profile-dp{
     width: 100%;

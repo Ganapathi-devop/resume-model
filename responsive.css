@@ -2,15 +2,8 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .left-div{padding: 10px;}
-    .right-div{padding: 10px;}
-    .profile-dp{padding-bottom: .5rem;}
-    #dp-img{width: 85%;}
-    .contacts{padding-bottom: .5rem;}   
-    #contact-h3{font-size: 1rem; margin: 5px;}
-    .icon-contacts i{font-size: 0.9rem;}
-    .text-contacts h4{font-size: 1rem;}
-    .text-contacts p{font-size: .8rem;}
+    .left-div{display: none;}
+    .header{display: block;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
