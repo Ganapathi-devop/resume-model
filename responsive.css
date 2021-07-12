@@ -5,6 +5,8 @@
     .left-div{display: none;}
     .header{display: block;}
     .right-div{position: relative; z-index: -1;}
+    .headline h2{font-size: 1.7rem;}
+    .headline h5{font-size: 1rem;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
