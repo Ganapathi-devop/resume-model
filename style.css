@@ -25,6 +25,8 @@ body{
     float: left;
     font-family: inherit;
     padding: 20px;
+    position: relative;
+    z-index: -1;
 }
 .header{
     display: none;
@@ -49,16 +51,24 @@ body{
     color: black;
 }
 .newdiv h4{
+    text-align: justify;
     font-size: 1.5rem;
     font-family: 'Otomanopee One', sans-serif;
+    padding-top: 5px;
+    margin: 10px;
+}
+.icon-cell{
+    vertical-align: middle;
 }
 .newdiv i{
+    margin: 10px;
     font-size: 1.6rem;
     color: #f72585;
 }
 .newdiv p{
     font-family: cursive;
     font-size: 1rem;
+    padding: 0%;
 }
 #header-img{
     max-width: 75px;
