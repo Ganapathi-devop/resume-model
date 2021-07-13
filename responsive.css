@@ -4,9 +4,13 @@
 @media only screen and (max-width: 600px) {
     .left-div{display: none;}
     .header{display: block;}
-    .right-div{position: relative; z-index: -1;}
+    .right-div{position: relative; z-index: -1; background: linear-gradient(to bottom, #ff1b6b, #45caff 75%);}
     .headline h2{font-size: 1.7rem;}
     .headline h5{font-size: 1rem;}
+    #profile-h4{font-size: 1rem;}
+    #work-h4{font-size: 1rem;}
+    #education-h4{font-size: 1rem;}
+    #certificates-h4{font-size: 1rem;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
