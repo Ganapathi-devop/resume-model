@@ -5,6 +5,7 @@
     .left-div{display: none;}
     .header{display: block;}
     .right-div{position: relative; z-index: -1; background: linear-gradient(to bottom, #ff1b6b, #45caff 75%);}
+    .headline{margin-bottom: 10px;}
     .headline h2{font-size: 1.7rem;}
     .headline h5{font-size: 1rem;}
     #profile-h4{font-size: 1rem;}
